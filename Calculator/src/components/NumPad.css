@@ -1,0 +1,39 @@
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.numpad button {
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.numpad button:hover {
+    background: #e5e7eb;
+}
+
+.numpad .operator {
+    background: #dbeafe;
+    color: #1e3a8a;
+}
+
+.numpad .operator:hover {
+    background: #bfdbfe;
+}
+
+.numpad .equals {
+    background: #fde68a;
+    color: #78350f;
+}
+
+.numpad .equals:hover {
+    background: #fcd34d;
+}
