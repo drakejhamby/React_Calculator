@@ -1,8 +1,6 @@
-function Display() {
+function Display({value="0"}) {
     return (
-        <div className="display">
-            <h2>0</h2>
-        </div>
+        <h2>{value}</h2>
     )
 
 }
